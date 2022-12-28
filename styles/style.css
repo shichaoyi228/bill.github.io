@@ -56,7 +56,15 @@ p {
 	border-color: white purple;	/*可以決定border的顏色，也有四個方向，許多寫法*/
 	line-height: 2;				/*行與行的距離*/
 	letter-spacing: 3px;		/*字元間距*/
-  	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Prosto One', cursive;
+}
+
+.paragraph1 {
+	color: white;
+  	font-size: 20px;			/*字體大小*/
+  	text-align: center;			/*置中在border框框裡面*/
+	line-height: 2;				/*行與行的距離*/
+	letter-spacing: 3px;		/*字元間距*/
 	font-family: 'Prosto One', cursive;
 }
 
