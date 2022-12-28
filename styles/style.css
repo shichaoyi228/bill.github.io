@@ -48,7 +48,7 @@ img {
 }
 
 
-p {
+.paragraph1 {
 	color: white;
   	font-size: 20px;			/*字體大小*/
   	text-align: center;			/*置中在border框框裡面*/
@@ -59,7 +59,7 @@ p {
 	font-family: 'Prosto One', cursive;
 }
 
-.paragraph1 {
+.paragraph3 {
 	color: white;
   	font-size: 20px;			/*字體大小*/
   	text-align: center;			/*置中在border框框裡面*/
