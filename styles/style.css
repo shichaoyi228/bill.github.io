@@ -1,0 +1,67 @@
+
+							/*符號、標點、拼字都要注意*/
+html {
+  background-color: #333;
+}
+
+body {
+  width: 800px;					/*固定body的寬度為＿像素*/
+  background-color: #FF9500;	/*背景的顏色，也可直接用英文*/
+  padding: 20px 20px 20px 20px;	/*body向內與元素的距離:(上下) (右左) 下 左*/
+  margin: 0 auto;				/*外部與body的距離：(上下) (右左) 下 左；auto會置中*/
+  border: 5px solid black;
+  border-radius: 10px;			/*變成圓角*/
+}
+
+
+h1 {
+  font-size: 60px; /* px means 'pixels': the base font size is now 10 pixels high  */
+	font-family: 'Sevillana', cursive;	/*從google複製*/
+  	text-align: center;
+  /*margin: 0;					/*刪掉會變寬，有預設值？*/
+  /*padding: 20px 0;				/*用margin或padding在這裡的效果看起來一樣*/
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;	/*字體陰影，右+左- 下+上- 模糊度 顏色*/
+}									/*怎麼加入兩種字體？*/
+
+/*
+img {
+  display: block;
+  margin: 0 auto;				//用auto可以置中
+}
+*/
+
+.like-icon {
+	width: 30px;
+}
+
+.fishing-cat {
+	width: 600px;
+	display: block;				/*加了這個可以置中*/
+	margin: 0 auto;
+}
+
+.xmas-card {
+	width: 600px;
+	display: block;
+	margin: 0 auto;	
+}
+
+
+p {
+	color: white;
+  	font-size: 20px;			/*字體大小*/
+  	text-align: center;			/*置中在border框框裡面*/
+	border: 3px solid black;	/*solid border：方框，沒有設定方框的width*/
+	border-color: white purple;	/*可以決定border的顏色，也有四個方向，許多寫法*/
+	line-height: 2;				/*行與行的距離*/
+	letter-spacing: 3px;		/*字元間距*/
+  	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Prosto One', cursive;
+}
+
+
+li {
+	color: yellow;			/*用ul跟li的差別是什麼？*/
+	font-family: 'Noto Sans TC', sans-serif;
+}							/*選擇置中時，項目符號不會跟著走？*/
