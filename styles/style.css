@@ -59,6 +59,17 @@ img {
 	font-family: 'Prosto One', cursive;
 }
 
+.paragraph2 {
+	color: white;
+  	font-size: 20px;			/*字體大小*/
+  	text-align: center;			/*置中在border框框裡面*/
+	border: 3px solid black;	/*solid border：方框，沒有設定方框的width*/
+	border-color: white purple;	/*可以決定border的顏色，也有四個方向，許多寫法*/
+	line-height: 2;				/*行與行的距離*/
+	letter-spacing: 3px;		/*字元間距*/
+	font-family: 'Prosto One', cursive;
+}
+
 .paragraph3 {
 	color: white;
   	font-size: 20px;			/*字體大小*/
